@@ -24,9 +24,9 @@ if(isset($_POST['email'])) {
 	// or if you prefer/need to fall back to use PHP's inbuilt mail() function:
 	// $transport = Swift_MailTransport::newInstance();
 	
-	$transport = Swift_SmtpTransport::newInstance('mail.yourdomain.com', 25, 'tls' )
+	$transport = Swift_SmtpTransport::newInstance('carbuncsgocr@gmail.com', 25, 'tls' )
 	  ->setUsername('')     
-	  ->setPassword('p@55w0rd')
+	  ->setPassword('Anranu12')
 	  ;
 
 	
@@ -44,7 +44,7 @@ if(isset($_POST['email'])) {
 	// You can change "A message from Form" to your own subject if you want.
 	$message = Swift_Message::newInstance('A message from Form')
 	  ->setFrom(array($_POST['email'] => $_POST['name']))
-	  ->setTo(array('email@yourdomain.com' => 'John Doe'))->setBody($messageText);
+	  ->setTo(array('carbuncsgocr@gmail.com' => 'Wylky'))->setBody($messageText);
 //                           ^                    ^
 //       Your email address_/          Your name_/
 
