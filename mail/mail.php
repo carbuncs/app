@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
 	
 	$transport = Swift_SmtpTransport::newInstance('carbuncsgocr@gmail.com', 25, 'tls' )
 	  ->setUsername('')     
-	  ->setPassword('Anranu12')
+	  ->setPassword('')
 	  ;
 
 	
