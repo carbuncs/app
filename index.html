@@ -28,7 +28,7 @@
         <link href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic" rel="stylesheet" type="text/css">
         <link href="css/font-helvetica.css" rel="stylesheet" type="text/css">
     </head>
-<!---chatbot-->
+<!---chatbot
     <body>
 	    <meta name="google-site-verification" content="rg7EOGjJ3kqe1gi4sw8qMiiBF8nRpEHNr2QkhMXZvQw" />
 			<script>
@@ -60,16 +60,36 @@
 						js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
 						fjs.parentNode.insertBefore(js, fjs);
 					  }(document, 'script', 'facebook-jssdk'));
-					}, 0);
+					}, 0);-->
 
-					<div
-    class="fb-customerchat"
-    page_id="151483612138903"
-    ref="optional ref parameter"
-    theme_color="0a0a0a"
-    logged_in_greeting="HOLA"
-    logged_out_greeting="dios">
-</div>
+
+
+//					<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="151483612138903"
+  theme_color="#fa3c4c"
+  logged_in_greeting="¡Hola 👋!  Soy el asistente de Inteligencia Artificial de Carbuncs👮‍♂  ¿Te ayudo?"
+  logged_out_greeting="¡Hola 👋!  Soy el asistente de Inteligencia Artificial de Carbuncs👮‍♂  ¿Te ayudo?">
+      </div>
 
 					
 
