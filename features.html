@@ -28,25 +28,37 @@
     </head>
 
     <body>
-    	<div class="loader">
-    		<div class="spinner">
-			  <div class="double-bounce1"></div>
-			  <div class="double-bounce2"></div>
-			</div>
-    	</div>
-				
-		<div class="nav-container">
-			<nav class="centered-logo top-bar">
-				<div class="container">
-				
-					
-					
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<a href="index.html">
-							<!--
-							<img class="logo logo-dark" alt="Logo" src="img/logotype_dark.ico">-->
-						</div>
+			<div class="loader">
+					<div class="spinner-grow justify-content">
+							<img class="logo logo-dark justify-content" alt="Logo" src="img/ipad2.png">
+		
+					  <div class="double-bounce2"></div>
+					  <div class="double-bounce1"></div>
+					  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		.loader {
+		  border: 16px solid #f3f3f3;
+		  border-radius: 50%;
+		  border-top: 16px solid blue;
+		  border-right: 16px solid green;
+		  border-bottom: 16px solid red;
+		  width: 350px;
+		  height: 350px;
+		  -webkit-animation: spin 2s linear infinite;
+		  animation: spin 2s linear infinite;
+		}
+		
+		@-webkit-keyframes spin {
+		  0% { -webkit-transform: rotate(0deg); }
+		  100% { -webkit-transform: rotate(360deg); }
+		}
+		
+		@keyframes spin {
+		  0% { transform: rotate(0deg); }
+		  100% { transform: rotate(360deg); }
+		}
+		</style>
+					</div>
 					</div>
 				
 				
