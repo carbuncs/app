@@ -1,3 +1,13 @@
+.texto{
+
+  
+  color: #131010;
+  position: relative;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+
 .rojo{
 
   color:red;
@@ -1140,13 +1150,13 @@ header.fullscreen-element .overlay:before,
   display: block;
   height: 104px;
   width: 104px;
-  border: 2px solid #01a2a6;
+  border: 2px solid #d10909;
   border-radius: 50%;
   text-align: center;
-  color: #01a2a6;
+  color: #187b7c;
   font-size: 40px;
   padding-top: 31px;
-  margin-bottom: 32px;
+  margin-bottom: center;
 }
 .duplicatable-content .feature {
   margin-bottom: 40px;

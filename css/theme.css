@@ -1150,13 +1150,13 @@ header.fullscreen-element .overlay:before,
   display: block;
   height: 104px;
   width: 104px;
-  border: 2px solid #e74c3c;
+  border: 2px solid #e61b04;
   border-radius: 50%;
   text-align: center;
   color: #e74c3c;
   font-size: 40px;
-  padding-top: 31px;
-  margin-bottom: 32px;
+  padding-top: 10px;
+  margin-bottom: center;
 }
 .duplicatable-content .feature {
   margin-bottom: 40px;
